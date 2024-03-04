@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'segoe ui light';
+}
+
+/* land */
+
+#land {
+    background-image: url(../imgs/land.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 100vh;
+}
+
+#land nav {
+    background-color: rgb(0, 0, 0, 50%);
+    padding-bottom: 15px;
+    height: 50px;
+}
+
+
+#land nav img {
+    width: 70px;
+    float: left;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#land nav ul {
+    list-style: none;
+    text-align: center;
+    float: right;
+    width: 50%;
+    text-transform: uppercase;
+}
+
+#land nav ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#land nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+#land .land {
+    text-align: center;
+    color: white;
+}
+
+#land .land img {
+    width: 25%;
+    margin-top: 5%;
+}
+
+#land .land h1 {
+    margin: 15px 0 0;
+}
+
+#land .land p {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    margin: 0;
+}
+
+#land .land .btns button {
+    padding: 15px 15px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+#land .land .btns .btn1 {
+    background-color: #989595;
+}
+
+/* about */
+#about {
+    margin: 15px;
+    background-color: white;
+}
+
+#about img {
+    width: 35%;
+    margin-left: 30px;
+    float: left;
+}
+
+#about .content {
+    text-align: center;
+    float: right;
+    width: 50%;
+    margin: 10% 5% 0;
+}
+
+#about .content span {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(224, 224, 40);
+    font-size: 25px;
+}
+
+#about .content h2 {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+#about .content button {
+    padding: 15px 18px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.clr {
+    clear: left;
+}
+
+/* static background */
+
+.bg {
+    height: 300px;
+    background-image: url(../imgs/bg.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* meals */
+#meals {
+    text-align: center;
+    padding: 30px 0;
+}
+
+#meals>h2,
+#contact>h2 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#meals div.meal {
+    display: inline-block;
+    width: 40%;
+    margin-top: 40px;
+}
+
+#meals .meal img {
+    border-radius: 50%;
+}
+
+#meals .meal h2 {
+    text-transform: uppercase;
+}
+
+#meals .meal div.line {
+    width: 100px;
+    background-color: #989595;
+    height: .5px;
+    margin: auto;
+}
+
+#meals .meal p {
+    width: 80%;
+    margin: 15px auto;
+}
+
+/* contact */
+
+#contact {
+    height: 100vh;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+
+#contact>h2 {
+    margin-bottom: 60px;
+}
+
+#contact form {
+    width: 80%;
+    margin: 10px auto;
+}
+
+#contact form input,
+#contact form textarea {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 0;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#contact form input {
+    height: 30px;
+}
+
+#contact form textarea {
+    resize: none;
+    height: 250px;
+}
+
+#contact form button {
+    background-color: #777;
+    color: white;
+    border: 0;
+    padding: 15px 20px;
+    float: right;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+/* footer */
+.footer {
+    background-color: #606060;
+    padding: 40px 0;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+}
